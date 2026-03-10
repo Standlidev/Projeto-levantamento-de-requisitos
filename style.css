@@ -54,6 +54,15 @@ header{
     font-size: 22px;
     line-height: 1.4;
 }
+.contentButton{
+    font-family: 'Quicksand';
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
 
 .hero {
     display: flex;
@@ -81,4 +90,15 @@ header{
     justify-content: center;
     width: fit-content;
     margin: 20px auto;
+}
+.contentButton{
+    background-color: #F17F29;
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+}
+.petPrints{
+    max-width: 30px;
+    height: auto;
+    align-items: center;
 }
