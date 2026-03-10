@@ -14,13 +14,16 @@ body{
 
 header, .loginButton, .about, #logo{
     display: flex;
-    gap: 25%;
+    gap: 20%;
 }
 header{
     background-color: #097969;
     height: 120px;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 10px 5%;
+    position: relative;
+    z-index: 1;
 }
 
 .loginButton, .about{
@@ -41,14 +44,41 @@ header{
 }
 .title{
     font-family: 'Quicksand';
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 800;
+    margin-bottom: 50px;
+    
 }
 .text{
     font-family: 'Quicksand';
     font-size: 22px;
+    line-height: 1.4;
 }
 
-#sidePhotoText{
+.hero {
     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 40px 5%; 
+    gap: 40px;
+}
+
+#mainText {
+    flex: 1; 
+    max-width: 600px; 
+}
+
+#sidePhotoText {
+    flex: 1; 
+    max-width: 650px; 
+    height: auto;
+    position: relative;
+    z-index: 10;
+    margin-top: -120px;
+}
+.contentButton, .coolfacts{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
 }
