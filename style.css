@@ -49,7 +49,7 @@ header{
     margin-bottom: 50px;
     
 }
-.text{
+.text, .coolfacts, .steps{
     font-family: 'Quicksand';
     font-size: 22px;
     line-height: 1.4;
@@ -101,4 +101,23 @@ header{
     max-width: 30px;
     height: auto;
     align-items: center;
+}
+
+.coolfacts{
+    gap: 50px;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+    gap: 80px;
+    padding-top: 80px;
+}
+.conteinerContent{
+    text-align: center;
+    background-color: #F17F29;
+    border-radius: 12px;
+    border: 2px solid;
+    width: 103%;
 }
