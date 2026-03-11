@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amigo Pet</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     
     <header>
         <img src="./images/logo.png" alt="logo Amigo pet" id="logo" height="120px" width="auto">
-        <div class="loginButton">Entre em sua conta</div>
+        <div class="loginLink">Entre em sua conta</div>
         <div class="about">Sobre</div>
     </header>
     <main>
@@ -37,5 +38,23 @@
             <div class="conteinerContent"><strong>Adote com amor</strong><br>Entre em contato com o abrigo e finalize o processo</div>
         </div>
     </main>
+
+    <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+        <span class="close-button" id="closeModal">X</span>
+        <h2>Login</h2>
+        <form>
+            <label>E-mail</label>
+            <input type="email" placeholder="Seu e-mail">
+            <label>Senha</label>
+            <input type="password" placeholder="Sua senha">
+            <button type="submit" class="loginButton">Logar</button>
+            <a href="#" class="forgot-password">Esqueci a senha</a>
+        </form>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>

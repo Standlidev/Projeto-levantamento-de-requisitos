@@ -12,7 +12,7 @@ body{
     padding: 0;
 }
 
-header, .loginButton, .about, #logo{
+header, .loginLink, .about, #logo{
     display: flex;
     gap: 20%;
 }
@@ -26,7 +26,7 @@ header{
     z-index: 1;
 }
 
-.loginButton, .about{
+.loginLink, .about{
     font-family: 'Quicksand';
     font-size: 22px;
     font-weight: 800;
@@ -37,7 +37,7 @@ header{
     border-radius: 12px;
 
 }
-.loginButton{
+.loginLink{
     min-width: 210px;
     width: auto;
     height: 30px;
@@ -120,4 +120,40 @@ header{
     border-radius: 12px;
     border: 2px solid;
     width: 103%;
+}
+.signupWindow{
+    background-color: #0EB199;
+}
+.modalContent{
+    background-color: #097969;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+/* O container que ocupa a tela toda */
+.modal-overlay {
+    display: none; /* Começa escondido */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto transparente */
+    backdrop-filter: blur(8px); /* O efeito de desfoque do Figma */
+    z-index: 1000; /* Garante que fique acima de tudo */
+    justify-content: center;
+    align-items: center;
+}
+
+/* A caixa centralizada */
+.modal-content {
+    background-color: #097969; /* O verde do seu header */
+    padding: 40px;
+    border-radius: 20px; /* Bordas arredondadas */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+    position: relative;
+    border: 2px solid black;
 }
