@@ -42,14 +42,14 @@
     <div class="modal-overlay" id="modalOverlay">
     <div class="modal-content">
         <span class="close-button" id="closeModal">X</span>
-        <h2>Login</h2>
+        <h2 id="loginTitle">Login</h2>
         <form>
-            <label>E-mail</label>
-            <input type="email" placeholder="Seu e-mail">
-            <label>Senha</label>
-            <input type="password" placeholder="Sua senha">
+            <label for="emailHolder">E-mail</label>
+            <input type="email" placeholder="Seu e-mail" id="emailHolder">
+            <label for="passwordCamp">Senha</label>
+            <input type="password" placeholder="Sua senha" id="passwordCamp">
             <button type="submit" class="loginButton">Logar</button>
-            <a href="#" class="forgot-password">Esqueci a senha</a>
+            <a href="#" class="forgotPassword">Esqueci a senha</a>
         </form>
     </div>
 </div>
