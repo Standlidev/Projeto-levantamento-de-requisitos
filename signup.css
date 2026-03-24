@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#ongoingTitle{
+    font-family: "Quicksand";
+    font-size: 48px;
+    max-width: 30%;
+}
+#ongoingImg{
+    width: 60%;
+    height: auto;
+}
+.signuoForm{
+    display: flex;
+}
