@@ -174,25 +174,51 @@ header{
     font-size: 32;
     font-weight: 700;
 }
-.loginButton{
-    position: absolute;
-    background-color: #F17F29;
-    border: 1px solid;
-    font-family: 'Quicksand';
-    font-size: 22px;
-    border-radius: 12px;
 
+
+.modal-content,  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os textos (labels) na esquerda */
+    gap: 10px; /* Espaço entre cada campo */
+    width: 100%;
+}
+
+.modal-content , label {
+    font-family: 'Quicksand';
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+.modal-content input {
+    width: 100%; /* Ocupa toda a largura do modal */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-sizing: border-box; /* Garante que o input não "escape" do modal */
+}
+.loginButton {
+    background-color: #F17F29;
+    padding: 10px 40px;
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 20px auto 5px auto; /* Centraliza o botão */
+    width: fit-content;
+    height: auto; /* Deixa o padding definir a altura */
+    font-family: "Quicksand";
+    font-weight: 700;
 }
 
 .forgotPassword{
-    position: absolute;
-    bottom: -50px;
     background-color: #F17F29;
+    border: 1px solid black;
+    cursor: pointer;
+    width: fit-content;
+    height: auto;
+    margin: 20px auto 5px auto;
     border-radius: 12px;
-    border: 1px solid;
-    font-family: 'Quicksand';
-    font-size: 22px;
-    text-decoration: underline;
-    text-decoration-color: black;
-    color: black;
+    padding: 10px 40px;
 }
