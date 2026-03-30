@@ -5,16 +5,51 @@
   font-weight: 300;
   font-style: normal;
 }
-
+#ongoingText{
+    flex-direction: column;
+}
 #ongoingTitle{
     font-family: "Quicksand";
     font-size: 48px;
-    max-width: 30%;
+    width: 600px;
+    margin: 50px 100px 20px 50px;
+    font-weight: 700;
 }
 #ongoingImg{
-    width: 60%;
+    width: 100%;
     height: auto;
 }
-.signuoForm{
+.signupWindow{
     display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px 40px 20px 10px;
+    padding: 2%;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+.signupForm{
+    display: flex;
+    position: relative;
+}
+.camps{
+    display: flex;
+    
+}
+
+.userImg{
+    width: 24px;
+    height: auto;
+}
+
+input{
+
+position: absolute;
+right: 70px;
+width: 333px;
+height: 20px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
 }

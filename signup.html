@@ -14,23 +14,60 @@
         <div class="loginLink">Entre em sua conta</div>
         <div class="about">Sobre</div>
     </header>
+ <div class="signupForm">
     <section id="ongoingText">
         <div id="ongoingTitle">Falta Pouco para você mudar uma vida!</div>
         <img src="images/undraw_good-doggy_4ast.svg" alt="" id="ongoingImg">
     </section>
     <section class="signupWindow">
-        <label for="">Nome Completo</label>
-        <input type="text">
-        <label for="">E-mail</label>
-        <input type="text">
-        <label for="">CPF</label>
-        <input type="text">
-        <label for="">CEP</label>
-        <input type="text">
-        <label for="">Senha</label>
-        <input type="text">
-        <label for="">Confirma a senha</label>
-        <input type="text">
+        <div class="camps">
+            <img src="./images/user.svg" alt="" class="userImg">
+            <label for="">Nome Completo</label>
+            <input type="text">
+        </div>
+        <div class="camps">
+            <img src="./images/envelope-simple.svg" alt="" class="userImg">
+            <label for="">E-mail</label>
+            <input type="text">
+        </div>
+        <div class="camps">
+            <img src="./images/identification-card.svg" alt="" class="userImg">
+            <label for="">CPF</label>
+            <input type="text">
+        </div>
+        <div class="camps">
+            <img src="./images/map-pin.svg" alt="" class="userImg">
+            <label for="">CEP</label>
+            <input type="text">
+        </div>
+        <div class="camps">
+            <img src="./images/lock.svg" alt=""class="userImg">
+            <label for="">Senha</label>
+            <input type="text">
+        </div>
+        <div class="camps">
+            <img src="./images/check-circle.svg" alt="" class="userImg">
+            <label for="">Confirma a senha</label>
+            <input type="text">
+        </div>
     </section>
+ </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+        <span class="close-button" id="closeModal">X</span>
+        <h2 id="loginTitle">Login</h2>
+        <form>
+            <label for="emailHolder">E-mail</label>
+            <input type="email" placeholder="Seu e-mail" id="emailHolder">
+            <label for="passwordCamp">Senha</label>
+            <input type="password" placeholder="Sua senha" id="passwordCamp">
+            <button type="submit" class="loginButton">Logar</button>
+            <a href="#" class="forgotPassword">Esqueci a senha</a>
+            
+        </form>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
