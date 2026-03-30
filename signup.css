@@ -56,3 +56,18 @@ input{
     border-radius: 12px;
     margin: 0px 10px;
 }
+#preferenceConteiner{
+    display: flex;
+    margin: 40px 0;
+}
+.imgPrefC{
+    width: 248px;
+    height: 122px;
+}
+.imgPrefD{
+    width: 232px;
+    height: 122px;
+}
+.pref{
+    height: 20px;
+}
