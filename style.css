@@ -221,4 +221,6 @@ header{
     margin: 20px auto 5px auto;
     border-radius: 12px;
     padding: 10px 40px;
+    text-decoration: none;
+    color: black;
 }

@@ -61,12 +61,12 @@ input{
     margin: 40px 0;
 }
 .imgPrefC{
-    width: 248px;
-    height: 122px;
+    width: 124px;
+    height: 61px;
 }
 .imgPrefD{
-    width: 232px;
-    height: 122px;
+    width: 124px;
+    height: 61px;
 }
 .pref{
     height: 20px;
@@ -85,4 +85,25 @@ input{
 }
 #accCreatBtn{
     background-color: #F17F29;
+    border-radius: 12px;
+    font-family: "quicksand";
+    font-weight: 700;
+    padding: 5px;
+    font-size: 16px;
+    border: solid 2px black;
+}
+.loginLink2{
+    background-color: #F17F29;
+    border-radius: 12px;
+    font-family: "Quicksand";
+    font-weight: 700;
+    width: fit-content;
+    padding: 5px;
+    margin: 25px 0 0 0;
+    border: 2px solid black;
+} 
+#formBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

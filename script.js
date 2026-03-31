@@ -1,7 +1,7 @@
 const loginBtn = document.querySelector('.loginLink'); // Botão do Header
 const modal = document.getElementById('modalOverlay');
 const closeBtn = document.getElementById('closeModal');
-
+const loginBtn2 = document.querySelector('.loginLink2')
 // Abrir modal
 loginBtn.addEventListener('click', () => {
     modal.style.display = 'flex';
@@ -17,4 +17,8 @@ window.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.style.display = 'none';
     }
+});
+
+loginBtn2.addEventListener('click', () => {
+    modal.style.display = 'flex';
 });
